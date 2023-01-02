@@ -1,0 +1,89 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(OpenSans-Medium.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin: 0;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+body {
+    font-family: myFirstFont;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+body a:link{
+    color:#8a7e00;
+    text-decoration: none;
+}
+
+body a:visited{
+    color:#8a7e00;
+}
+
+.menu a {
+    padding: 16px;
+    color: #8a7e00;
+    display:inline-block;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #3d3800;
+}
+
+.personal-projects, .school-projects{
+    padding-left: 4%;
+    
+}
+
+.about-me, .school-projects{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.personal-projects{
+    padding-bottom: 20%;
+}
+
+.highlight{
+    color: #DBC700;
+}
+
+.personal-projects img{
+    width:50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.GenR8 p {
+    padding-left: 25%;
+    padding-top: calc(25%/2);
+}
+
+.GenR8 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.SATS p {
+    padding-left: 25%;
+    padding-top: calc(25%/2);
+}
+
+.SATS {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
